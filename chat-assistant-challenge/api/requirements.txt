@@ -1,0 +1,7 @@
+uvicorn
+fastapi
+pydantic
+aiohttp
+langchain
+langchain-openai
+dspy
