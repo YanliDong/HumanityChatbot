@@ -1,0 +1,140 @@
+{
+    "status": 1,
+    "data": [
+        {
+            "id": 6053125,
+            "name": "Abdel Poncet",
+            "conflict_groups": [
+                [
+                    3,
+                    "Will be scheduled for more than 8 hours (15) on 03/16/2025"
+                ],
+                [
+                    21,
+                    ""
+                ],
+                [
+                    21,
+                    ""
+                ]
+            ]
+        },
+        {
+            "id": 6025306,
+            "name": "Adam Smith",
+            "conflict_groups": [
+                [
+                    21,
+                    ""
+                ],
+                [
+                    21,
+                    ""
+                ]
+            ]
+        },
+        {
+            "id": 6053024,
+            "name": "Aarika Doget",
+            "conflict_groups": [
+                [
+                    21,
+                    ""
+                ],
+                [
+                    21,
+                    ""
+                ]
+            ]
+        },
+        {
+            "id": 6025305,
+            "name": "Adam McQueen",
+            "conflict_groups": [
+                [
+                    21,
+                    ""
+                ],
+                [
+                    21,
+                    ""
+                ]
+            ]
+        },
+        {
+            "id": 6052970,
+            "name": "Abel Kobierzycki",
+            "conflict_groups": [
+                [
+                    21,
+                    ""
+                ],
+                [
+                    21,
+                    ""
+                ]
+            ]
+        },
+        {
+            "id": 6053163,
+            "name": "Abby Fitchet",
+            "conflict_groups": [
+                [
+                    21,
+                    ""
+                ],
+                [
+                    21,
+                    ""
+                ]
+            ]
+        },
+        {
+            "id": 6025304,
+            "name": "Aaron Martin",
+            "conflict_groups": [
+                [
+                    21,
+                    ""
+                ],
+                [
+                    21,
+                    ""
+                ]
+            ]
+        },
+        {
+            "id": 6007493,
+            "name": "Abe Smith",
+            "conflict_groups": [
+                [
+                    21,
+                    ""
+                ],
+                [
+                    21,
+                    ""
+                ]
+            ]
+        },
+        {
+            "id": 6052515,
+            "name": "Adan Nail",
+            "conflict_groups": [
+                [
+                    21,
+                    ""
+                ],
+                [
+                    21,
+                    ""
+                ]
+            ]
+        }
+    ],
+    "metadata": {
+        "contaminations": []
+    },
+    "token": "blah",
+    "error": null
+}

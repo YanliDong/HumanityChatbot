@@ -1,0 +1,38 @@
+version: "3.3"
+
+services:
+  api_server:
+    command: python /code/api-app.py
+    build:
+      context: .
+      dockerfile: api/API.Dockerfile
+    environment:
+      CONTAINER: api_server
+      PORT: ${PORT}
+      LLM_HOST: ${LLM_HOST}
+      LOGIN_KEY: ${LOGIN_KEY}
+      BASE_API_URL: http://humanity:10001/api/
+    ports:
+      - ${PORT}:${PORT}
+    volumes:
+      - ./api:/code/api
+      - npm_cache:/root/.npm
+      - dspy_cache:/root/.dspy_cache
+
+  humanity_mock_server:
+    command: python /code/api-humanity-mock.py
+    hostname: humanity
+    build:
+      context: .
+      dockerfile: mock_humanity_server/API.Dockerfile
+    environment:
+      CONTAINER: mock_humanity_server
+      PORT: 10001
+    ports:
+      - 10001:10001
+    volumes:
+      - ./mock_humanity_server:/code/mock_humanity_server
+
+volumes:
+  npm_cache:
+  dspy_cache:
